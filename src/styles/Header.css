@@ -1,0 +1,45 @@
+:root {
+    --verylight: #EFF6E0;
+    --light: #AEC3B0;
+    --medium: #598392;
+    --dark: #124559;
+    --verydark: #01161E;
+}
+
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    background-color: var(--light) !important;
+}
+
+.footerIcon {
+    color: var(--dark) !important;
+}
+
+#header {
+    height: 200px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: var(--light) !important;
+}
+
+.heading {
+    font-size: 50px !important;
+    color: var(--dark) !important;
+}
+
+.navigation {
+    font-size: 25px !important;
+    color: var(--verydark) !important;
+}
+
+.title {
+    font-size: 25px !important;
+}

@@ -10,14 +10,14 @@ export default function About() {
       <Container className="justify-content-md-center">
         <Row>
           <Col>
-          <Row className='title'>
+          <Row className='about title'>
             About Me
           </Row>
           <Row>
-            <Image src={require('../../assets/IMG_9407.JPG')} rounded />
+            <Image src={require('../../assets/IMG_9407.JPG')} roundedCircle id="image" />
           </Row>
-          <Row>
-          PARAGRAPH
+          <Row className='about'>	
+          
           </Row>
              </Col>
         </Row>

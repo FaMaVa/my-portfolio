@@ -11,13 +11,12 @@ export default function About() {
         <Row>
           <Col>
           <Row className='about title'>
-            About Me
+            <h1>About Me</h1>
           </Row>
           <Row>
             <Image src={require('../../assets/IMG_9407.JPG')} roundedCircle id="image" />
           </Row>
           <Row className='about'>	
-          
           </Row>
              </Col>
         </Row>

@@ -19,9 +19,20 @@ footer {
     background-color: var(--light) !important;
 }
 
-.about {
-    padding-top: 30px;
-    padding-bottom: 30px;
+#contactTitle{
+    text-align: center;
+    padding: 20px;
+}
+
+#form {
+    color: var(--verylight);
+    background-color: var(--medium);
+    padding: 30px;
+}
+
+#formButton {
+    background-color: var(--light);
+    border: var(--light);
 }
 
 #header {
@@ -37,6 +48,11 @@ footer {
     padding: 0;
 }
 
+.about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .footerIcon {
     color: var(--dark) !important;
 }
@@ -46,8 +62,13 @@ footer {
     color: var(--dark) !important;
 }
 
-.navigation {
+.listTitle {
     font-size: 25px !important;
+    padding:20px;
+}
+
+.navigation {
+    
     color: var(--verydark) !important;
 }
 

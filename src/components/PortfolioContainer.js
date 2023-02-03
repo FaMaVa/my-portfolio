@@ -8,7 +8,8 @@ import Navigation from './Navigation';
 
 
 export default function PortfolioContainer() {
-    const [currentPage, setCurrentPage] = useState('About');
+    // const [currentPage, setCurrentPage] = useState('About');
+    const [currentPage, setCurrentPage] = useState('Resume');
   
     const renderPage = () => {
       if (currentPage === 'About') {

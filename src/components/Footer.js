@@ -11,17 +11,17 @@ export default function Footer() {
             <footer>
                 <Nav className="justify-content-center">
                     <Nav.Item>
-                        <Nav.Link href="#">
+                        <Nav.Link href="https://github.com/FaMaVa">
                             <FaGithub className='footerIcon'/>
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="#">
+                        <Nav.Link href="https://www.linkedin.com">
                             <FaLinkedin  className='footerIcon'/>
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="#">
+                        <Nav.Link href="https://www.instagram.com">
                             <FaInstagram  className='footerIcon'/>
                         </Nav.Link>
                     </Nav.Item>

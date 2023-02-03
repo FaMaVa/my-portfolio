@@ -11,7 +11,7 @@
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     padding: 20px;
@@ -48,6 +48,15 @@ footer {
     padding: 0;
 }
 
+#projectTitle{
+    text-align: center;
+    padding: 20px;
+}
+
+#resumeTitle{
+    padding: 20px;
+}
+
 .about {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -68,8 +77,30 @@ footer {
 }
 
 .navigation {
-    
+    font-size: 25px !important;
     color: var(--verydark) !important;
+}
+
+.pic {
+    filter: sepia(300%) hue-rotate(140deg) saturate(100%);
+}
+
+#portfolio {
+    padding-top: 10px;
+    padding-bottom: 130px;
+}
+
+.projectCard {
+    border: none !important;
+}
+
+.projectCardBody {
+    background-color: var(--verylight) !important;
+    color: var(--verydark) !important;
+}
+
+.projectCardLink{
+    color: var(--dark) !important;
 }
 
 .title {

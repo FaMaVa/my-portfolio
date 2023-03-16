@@ -7,17 +7,17 @@ import Image from 'react-bootstrap/Image'
 export default function About() {
   return (
     <div className='page'>
-      <Container className="justify-content-md-center">
+      <Container className="justify-content-md-center" id="portfolio">
         <Row>
           <Col>
             <Row className='about title'>
               <h1>About Me</h1>
             </Row>
             <Row>
-              <Image src={require('../../assets/IMG_9407.JPG')} roundedCircle id="image" />
+              <Image src={require('../../assets/VazEJHS0191art.jpg')} roundedCircle id="image" />
             </Row>
             <Row className='about'>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean et est a dui semper facilisis. Pellentesque placerat elit a nunc. Nullam tortor odio, rutrum quis, egestas ut, posuere sed, felis. Vestibulum placerat feugiat nisl. Suspendisse lacinia, odio non feugiat vestibulum, sem erat blandit metus, ac nonummy magna odio pharetra felis. Vivamus vehicula velit non metus faucibus auctor. Nam sed augue. Donec orci. Cras eget diam et dolor dapibus sollicitudin. In lacinia, tellus vitae laoreet ultrices, lectus ligula dictum dui, eget condimentum velit dui vitae ante. Nulla nonummy augue nec pede. Pellentesque ut nulla. Donec at libero. Pellentesque at nisl ac nisi fermentum viverra. Praesent odio. Phasellus tincidunt diam ut ipsum. Donec eget est.
+            A Full-Stack web developer, who is eager to apply my knowledge and skills, while gaining more valuable experience and understanding, within the industry. I am well-versed in JavaScript and have the ability to work both front-end and back-end. I possess strong communication skills and have experience in working alongside a team to create high-quality applications. I also have a high level of determination and attention to detail when it comes to problem-solving and building a  website.            
             </Row>
           </Col>
         </Row>

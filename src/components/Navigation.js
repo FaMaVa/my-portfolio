@@ -34,7 +34,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
                     <div className="navigation">Contact</div>
                 </Nav.Link>
                 <Nav.Link href="#resume" onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>
-                    <div className="navigation">Resume</div>
+                    <div className="navigation">Skills</div>
                 </Nav.Link>
             </Nav>
                 </Offcanvas.Body>

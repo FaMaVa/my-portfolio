@@ -4,8 +4,8 @@ import Container from 'react-bootstrap/esm/Container';
 export default function Resume() {
   return (
     <div>
-      <Container>
-      <h1 id="resumeTitle">Resume</h1>
+      <Container id="portfolio">
+      <h1 id="resumeTitle">Skills</h1>
       <div className="listTitle">Front-End Proficiencies</div>
       <ul>
         <li>HTML</li>

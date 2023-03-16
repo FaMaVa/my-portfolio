@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://FaMaVa.github.io/my-portfolio",
+  "engines": {
+    "node": "16.19.0",
+    "npm": "8.19.3"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.1.0",

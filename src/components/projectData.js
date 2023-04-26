@@ -36,7 +36,7 @@ const projectArray = [
     title: "Poke Tracker App",
     image: "https://raw.githubusercontent.com/skyman529/PoketrackerApp/main/client/public/images/mock-up.png",
     summary: "The application gives the user the ability to catalog a collectionof favorite Pokemon characters by display a group of available characters and adding them to a personal list",
-    deploy: "https://poketrakerapp.herokuapp.com/" ,
+    deploy: "https://poke-tracker.herokuapp.com/" ,
     github: "https://github.com/skyman529/PoketrackerApp",
   },
 ];
